@@ -18,26 +18,6 @@ This project is a Spring Boot-based REST API that fetches weather information fo
 - **JUnit 5** and **Mockito** (for testing)
 - **Maven** (for dependency management)
 
-## Project Structure
-```plaintext
-src/
-│
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── weatherapi/
-│   │           ├── controller/       # API Controllers
-│   │           ├── service/           # Business Logic
-│   │           ├── model/             # Entity Definitions
-│   │           ├── repository/        # Repositories for Database Access
-│   │           └── client/            # API Clients for External Services
-│   └── resources/
-│       ├── application.properties     # Configuration
-│       └── schema.sql                 # Database Schema (if needed)
-├── test/
-│   └── java/                          # Unit Test Cases
-└── pom.xml                             # Maven Dependencies
-
 ## Getting Started
 Prerequisites
 To run this project, you need the following:
