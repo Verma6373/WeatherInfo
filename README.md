@@ -65,7 +65,7 @@ By default, the application is configured to use an H2 in-memory database. If yo
 properties
 Copy
 Edit
-# MySQL configuration
+MySQL configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/weatherdb
 spring.datasource.username=root
 spring.datasource.password=password
